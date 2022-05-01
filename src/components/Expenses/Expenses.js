@@ -1,11 +1,13 @@
 import ExpenseItem from "./ExpenseItem";
 import "./Expenses.css";
 import Card from "../UI/Card";
+import ExpenseFilter from "./ExpenseFilter";
 
 function Expenses(props) {
 
   //React (JSX) code goes here
   return (
+      
     <Card className="expenses">
       <ExpenseItem
         title={props.items[0].title}
